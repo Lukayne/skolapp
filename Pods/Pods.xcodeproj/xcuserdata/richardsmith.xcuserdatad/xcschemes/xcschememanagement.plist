@@ -29,8 +29,44 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Protobuf.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>50CB3B64D9FBB3897577F8CFABFEC9D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D5CEDECD3D8DC52EA507E0431BDA8A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C5439D3E610D0750216EB9F786743A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>867F50976026577DBA4D8A0C483468B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98E0705D08922F8FFD157131C9F1DE78</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
