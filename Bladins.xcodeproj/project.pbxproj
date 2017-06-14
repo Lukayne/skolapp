@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4BF1351EF18832005FB2C0 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF1341EF18832005FB2C0 /* loginViewController.swift */; };
+		2B4BF1371EF18A6E005FB2C0 /* createUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF1361EF18A6E005FB2C0 /* createUserViewController.swift */; };
+		2B4BF1391EF18B6A005FB2C0 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF1381EF18B6A005FB2C0 /* homeViewController.swift */; };
+		2B4BF13D1EF18C6F005FB2C0 /* priorityAndLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF13C1EF18C6F005FB2C0 /* priorityAndLocationViewController.swift */; };
 		2B928DE81EEEA23E0040EF42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B928DE71EEEA23E0040EF42 /* AppDelegate.swift */; };
-		2B928DEA1EEEA23E0040EF42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B928DE91EEEA23E0040EF42 /* ViewController.swift */; };
+		2B928DEA1EEEA23E0040EF42 /* schoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B928DE91EEEA23E0040EF42 /* schoolViewController.swift */; };
 		2B928DED1EEEA23E0040EF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B928DEB1EEEA23E0040EF42 /* Main.storyboard */; };
 		2B928DEF1EEEA23E0040EF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B928DEE1EEEA23E0040EF42 /* Assets.xcassets */; };
 		2B928DF21EEEA23E0040EF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B928DF01EEEA23E0040EF42 /* LaunchScreen.storyboard */; };
@@ -45,9 +49,13 @@
 
 /* Begin PBXFileReference section */
 		1228CD9F0E3CD64C0CE7A565 /* Pods-Bladins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bladins.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bladins/Pods-Bladins.release.xcconfig"; sourceTree = "<group>"; };
+		2B4BF1341EF18832005FB2C0 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		2B4BF1361EF18A6E005FB2C0 /* createUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createUserViewController.swift; sourceTree = "<group>"; };
+		2B4BF1381EF18B6A005FB2C0 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		2B4BF13C1EF18C6F005FB2C0 /* priorityAndLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = priorityAndLocationViewController.swift; path = ../priorityAndLocationViewController.swift; sourceTree = "<group>"; };
 		2B928DE41EEEA23E0040EF42 /* Bladins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bladins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B928DE71EEEA23E0040EF42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B928DE91EEEA23E0040EF42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B928DE91EEEA23E0040EF42 /* schoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolViewController.swift; sourceTree = "<group>"; };
 		2B928DEC1EEEA23E0040EF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B928DEE1EEEA23E0040EF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B928DF11EEEA23E0040EF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -127,8 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				2B928DE71EEEA23E0040EF42 /* AppDelegate.swift */,
-				2B928DE91EEEA23E0040EF42 /* ViewController.swift */,
+				2B4BF13C1EF18C6F005FB2C0 /* priorityAndLocationViewController.swift */,
+				2B928DE91EEEA23E0040EF42 /* schoolViewController.swift */,
 				2B928DEB1EEEA23E0040EF42 /* Main.storyboard */,
+				2B4BF1381EF18B6A005FB2C0 /* homeViewController.swift */,
+				2B4BF1361EF18A6E005FB2C0 /* createUserViewController.swift */,
+				2B4BF1341EF18832005FB2C0 /* loginViewController.swift */,
 				2B928DEE1EEEA23E0040EF42 /* Assets.xcassets */,
 				2B928DF01EEEA23E0040EF42 /* LaunchScreen.storyboard */,
 				2B928DF31EEEA23E0040EF42 /* Info.plist */,
@@ -469,9 +481,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4BF1351EF18832005FB2C0 /* loginViewController.swift in Sources */,
+				2B4BF1391EF18B6A005FB2C0 /* homeViewController.swift in Sources */,
 				66381F8F1EF06D3C00CAEDD0 /* User.swift in Sources */,
 				66381F8D1EF06D3200CAEDD0 /* Alert.swift in Sources */,
-				2B928DEA1EEEA23E0040EF42 /* ViewController.swift in Sources */,
+				2B4BF1371EF18A6E005FB2C0 /* createUserViewController.swift in Sources */,
+				2B4BF13D1EF18C6F005FB2C0 /* priorityAndLocationViewController.swift in Sources */,
+				2B928DEA1EEEA23E0040EF42 /* schoolViewController.swift in Sources */,
 				66381F931EF07AD900CAEDD0 /* Message.swift in Sources */,
 				66381F911EF07ACF00CAEDD0 /* School.swift in Sources */,
 				2B928DE81EEEA23E0040EF42 /* AppDelegate.swift in Sources */,

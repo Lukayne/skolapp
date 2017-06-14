@@ -24,18 +24,18 @@ class NewMessage: Message, Uploadable {
     
     var objectRef: DatabaseReference?
     
-    override init(body: String, author: User, alert: Alert) {
-        
-        // Create database reference
-        let ref = Database.database().reference()
-        objectRef = ref.child(author.school!).child("alerts").child(String(alert.timestamp!)).child("messages").child(String(timestamp!))
-        
-    }
-    
-    init(<#parameters#>) {
-        <#statements#>
-    }
-    
+//    override init(body: String, author: User, alert: Alert) {
+//        
+//        // Create database reference
+//        let ref = Database.database().reference()
+//        objectRef = ref.child(author.school!).child("alerts").child(String(alert.timestamp!)).child("messages").child(String(timestamp!))
+//        
+//    }
+//    
+////    init(<#parameters#>) {
+////        <#statements#>
+////    }
+//    
 }
 
 class Message {
