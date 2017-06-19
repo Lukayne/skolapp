@@ -11,6 +11,10 @@
 		2B4BF1371EF18A6E005FB2C0 /* createUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF1361EF18A6E005FB2C0 /* createUserViewController.swift */; };
 		2B4BF1391EF18B6A005FB2C0 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF1381EF18B6A005FB2C0 /* homeViewController.swift */; };
 		2B4BF13D1EF18C6F005FB2C0 /* priorityAndLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF13C1EF18C6F005FB2C0 /* priorityAndLocationViewController.swift */; };
+		2B4BF17E1EF2842C005FB2C0 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4BF17D1EF2842C005FB2C0 /* NotificationCenter.framework */; };
+		2B4BF1811EF2842C005FB2C0 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF1801EF2842C005FB2C0 /* TodayViewController.swift */; };
+		2B4BF1841EF2842C005FB2C0 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BF1821EF2842C005FB2C0 /* MainInterface.storyboard */; };
+		2B4BF1881EF2842C005FB2C0 /* push4help.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B4BF17C1EF2842C005FB2C0 /* push4help.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2B928DE81EEEA23E0040EF42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B928DE71EEEA23E0040EF42 /* AppDelegate.swift */; };
 		2B928DEA1EEEA23E0040EF42 /* schoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B928DE91EEEA23E0040EF42 /* schoolViewController.swift */; };
 		2B928DED1EEEA23E0040EF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B928DEB1EEEA23E0040EF42 /* Main.storyboard */; };
@@ -31,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2B4BF1861EF2842C005FB2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B928DDC1EEEA23E0040EF42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4BF17B1EF2842C005FB2C0;
+			remoteInfo = push4help;
+		};
 		2B928DF91EEEA23E0040EF42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2B928DDC1EEEA23E0040EF42 /* Project object */;
@@ -47,12 +58,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2B4BF18C1EF2842C005FB2C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B4BF1881EF2842C005FB2C0 /* push4help.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1228CD9F0E3CD64C0CE7A565 /* Pods-Bladins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bladins.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bladins/Pods-Bladins.release.xcconfig"; sourceTree = "<group>"; };
 		2B4BF1341EF18832005FB2C0 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		2B4BF1361EF18A6E005FB2C0 /* createUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createUserViewController.swift; sourceTree = "<group>"; };
 		2B4BF1381EF18B6A005FB2C0 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		2B4BF13C1EF18C6F005FB2C0 /* priorityAndLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = priorityAndLocationViewController.swift; path = ../priorityAndLocationViewController.swift; sourceTree = "<group>"; };
+		2B4BF17C1EF2842C005FB2C0 /* push4help.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = push4help.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4BF17D1EF2842C005FB2C0 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2B4BF1801EF2842C005FB2C0 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		2B4BF1831EF2842C005FB2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2B4BF1851EF2842C005FB2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B928DE41EEEA23E0040EF42 /* Bladins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bladins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B928DE71EEEA23E0040EF42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B928DE91EEEA23E0040EF42 /* schoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +112,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B4BF1791EF2842C005FB2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4BF17E1EF2842C005FB2C0 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B928DE11EEEA23E0040EF42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,12 +147,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4BF17F1EF2842C005FB2C0 /* push4help */ = {
+			isa = PBXGroup;
+			children = (
+				2B4BF1801EF2842C005FB2C0 /* TodayViewController.swift */,
+				2B4BF1821EF2842C005FB2C0 /* MainInterface.storyboard */,
+				2B4BF1851EF2842C005FB2C0 /* Info.plist */,
+			);
+			path = push4help;
+			sourceTree = "<group>";
+		};
 		2B928DDB1EEEA23E0040EF42 = {
 			isa = PBXGroup;
 			children = (
 				2B928DE61EEEA23E0040EF42 /* Bladins */,
 				2B928DFB1EEEA23E0040EF42 /* BladinsTests */,
 				2B928E061EEEA23E0040EF42 /* BladinsUITests */,
+				2B4BF17F1EF2842C005FB2C0 /* push4help */,
 				2B928DE51EEEA23E0040EF42 /* Products */,
 				B9C9D4BC7E3F90A056C16028 /* Pods */,
 				F8ADBBEDFACFF396E1252268 /* Frameworks */,
@@ -127,6 +176,7 @@
 				2B928DE41EEEA23E0040EF42 /* Bladins.app */,
 				2B928DF81EEEA23E0040EF42 /* BladinsTests.xctest */,
 				2B928E031EEEA23E0040EF42 /* BladinsUITests.xctest */,
+				2B4BF17C1EF2842C005FB2C0 /* push4help.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +240,7 @@
 				F9533907EB92F5BEEAAF555B /* Pods_Bladins.framework */,
 				3C761920FC8DBCE10775E67B /* Pods_BladinsTests.framework */,
 				928FE6768470F163ED630D50 /* Pods_BladinsUITests.framework */,
+				2B4BF17D1EF2842C005FB2C0 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,6 +248,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B4BF17B1EF2842C005FB2C0 /* push4help */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4BF1891EF2842C005FB2C0 /* Build configuration list for PBXNativeTarget "push4help" */;
+			buildPhases = (
+				2B4BF1781EF2842C005FB2C0 /* Sources */,
+				2B4BF1791EF2842C005FB2C0 /* Frameworks */,
+				2B4BF17A1EF2842C005FB2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = push4help;
+			productName = push4help;
+			productReference = 2B4BF17C1EF2842C005FB2C0 /* push4help.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		2B928DE31EEEA23E0040EF42 /* Bladins */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B928E0C1EEEA23E0040EF42 /* Build configuration list for PBXNativeTarget "Bladins" */;
@@ -207,10 +275,12 @@
 				2B928DE21EEEA23E0040EF42 /* Resources */,
 				04B5F75C8E60C4E489EF4DA0 /* [CP] Embed Pods Frameworks */,
 				5EC9E2D434355DA14E412BAE /* [CP] Copy Pods Resources */,
+				2B4BF18C1EF2842C005FB2C0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2B4BF1871EF2842C005FB2C0 /* PBXTargetDependency */,
 			);
 			name = Bladins;
 			productName = Bladins;
@@ -269,6 +339,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Richard Smith";
 				TargetAttributes = {
+					2B4BF17B1EF2842C005FB2C0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KZNMS3JRUQ;
+						ProvisioningStyle = Automatic;
+					};
 					2B928DE31EEEA23E0040EF42 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = KZNMS3JRUQ;
@@ -304,11 +379,20 @@
 				2B928DE31EEEA23E0040EF42 /* Bladins */,
 				2B928DF71EEEA23E0040EF42 /* BladinsTests */,
 				2B928E021EEEA23E0040EF42 /* BladinsUITests */,
+				2B4BF17B1EF2842C005FB2C0 /* push4help */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B4BF17A1EF2842C005FB2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4BF1841EF2842C005FB2C0 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B928DE21EEEA23E0040EF42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,6 +561,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B4BF1781EF2842C005FB2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4BF1811EF2842C005FB2C0 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B928DE01EEEA23E0040EF42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,6 +605,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2B4BF1871EF2842C005FB2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B4BF17B1EF2842C005FB2C0 /* push4help */;
+			targetProxy = 2B4BF1861EF2842C005FB2C0 /* PBXContainerItemProxy */;
+		};
 		2B928DFA1EEEA23E0040EF42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2B928DE31EEEA23E0040EF42 /* Bladins */;
@@ -526,6 +623,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2B4BF1821EF2842C005FB2C0 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4BF1831EF2842C005FB2C0 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		2B928DEB1EEEA23E0040EF42 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -545,6 +650,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2B4BF18A1EF2842C005FB2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KZNMS3JRUQ;
+				INFOPLIST_FILE = push4help/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = richard.smith.Gwardian.push4help;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B4BF18B1EF2842C005FB2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KZNMS3JRUQ;
+				INFOPLIST_FILE = push4help/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = richard.smith.Gwardian.push4help;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		2B928E0A1EEEA23E0040EF42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -644,6 +775,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 976AB284930A83FAAE194996 /* Pods-Bladins.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KZNMS3JRUQ;
 				INFOPLIST_FILE = Bladins/Info.plist;
@@ -659,6 +791,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1228CD9F0E3CD64C0CE7A565 /* Pods-Bladins.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KZNMS3JRUQ;
 				INFOPLIST_FILE = Bladins/Info.plist;
@@ -735,6 +868,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B4BF1891EF2842C005FB2C0 /* Build configuration list for PBXNativeTarget "push4help" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4BF18A1EF2842C005FB2C0 /* Debug */,
+				2B4BF18B1EF2842C005FB2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2B928DDF1EEEA23E0040EF42 /* Build configuration list for PBXProject "Bladins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
