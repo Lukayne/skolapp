@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>140437060593-6mqcn0l6agj4u9l5a4eekevn8nl1d017.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.140437060593-6mqcn0l6agj4u9l5a4eekevn8nl1d017</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHKh6TxZv8O63lcd9i5K927xjujg8ulhE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>140437060593</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>richard.smith.Gwardian</string>
+	<key>PROJECT_ID</key>
+	<string>gwardian-aa950</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gwardian-aa950.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:140437060593:ios:d0074b881c94714b</string>
+	<key>DATABASE_URL</key>
+	<string>https://gwardian-aa950.firebaseio.com</string>
+</dict>
+</plist>

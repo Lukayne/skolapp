@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Widget View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="WidgetViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="BDO-wc-V11">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="e2Y-Pe-6g8">
+                                <rect key="frame" x="0.0" y="40" width="320" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XsA-X2-bRP" customClass="DefaultButton" customModule="Bladins">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="500" constant="70" id="4o5-um-OTJ"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="iTr-g5-oEt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Larma!"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="backgroundType">
+                                                <integer key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="goToCrisys:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="uc7-6w-sHK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsV-UJ-qTf" customClass="DefaultButton" customModule="Bladins">
+                                        <rect key="frame" x="0.0" y="70" width="320" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="VG4-iU-pmP"/>
+                                        </constraints>
+                                        <state key="normal" title="Se aktiva larm"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="backgroundType">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="goToCrisys:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="RU9-wi-BKB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="e2Y-Pe-6g8" firstAttribute="height" secondItem="S3S-Oj-5AN" secondAttribute="height" multiplier="0.5" priority="400" id="Af7-oF-mDo"/>
+                            <constraint firstItem="BDO-wc-V11" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="LPb-OL-i13"/>
+                            <constraint firstAttribute="trailing" secondItem="BDO-wc-V11" secondAttribute="trailing" id="TUl-sr-trq"/>
+                            <constraint firstItem="e2Y-Pe-6g8" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="Yr1-Uy-3g6"/>
+                            <constraint firstItem="e2Y-Pe-6g8" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="dqh-PQ-KpM"/>
+                            <constraint firstItem="BDO-wc-V11" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" id="fvW-Ww-qx2"/>
+                            <constraint firstItem="e2Y-Pe-6g8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="gDP-1s-WrW"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="BDO-wc-V11" secondAttribute="bottom" id="jWo-yv-VCS"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="e2Y-Pe-6g8" secondAttribute="bottom" id="kgt-1m-GCs"/>
+                            <constraint firstAttribute="trailing" secondItem="e2Y-Pe-6g8" secondAttribute="trailing" id="puN-or-45t"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.59999999999999" y="138.53073463268368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="414" height="736"/>
+    </resources>
+</document>
